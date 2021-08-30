@@ -23,3 +23,8 @@
 
 //user TF environment
 +export TF_VAR_avail_zone="ap-southeast-1a"
+
++ terraform execute code reference dont depend on order code 
+
++ terraform state show aws_vpc.myapp-vpc
++ aws sts decode-authorization-message --encoded-message encoded-message
